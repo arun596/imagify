@@ -51,6 +51,7 @@ const AppContextProvider = (props) => {
         setToken('')
         setUser(null)
         toast.success("Logout Successfully")
+        navigate('/')
     }
 
     useEffect(()=>{
